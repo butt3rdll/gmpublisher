@@ -1,0 +1,271 @@
+{
+	"LANGUAGE_NAME": "Român?",
+
+	"my_workshop": "Atelierul meu",
+	"loading": "Încarcare...",
+	"gmod_dir": {
+		"name": "Directorul Garry's Mod ",
+		"fail": "Nu s-a putut g?sii directorul folderului Garry's Mod.\nAsigur?te ca directorul con?ine un folder bin/ care con?ine gmad ?i gmpublish."
+	},
+	"greetings": {
+		"morning": "Bun? diminea?a, {name}!",
+		"morning.anon": "Bună dimineața!",
+		"afternoon": "Bună seara, {name}!",
+		"afternoon.anon": "Bună seara!",
+		"evening": "Bună seara, {name}!",
+		"evening.anon": "Bună seara!"
+	},
+	"game": "Joc",
+	"filesystem": "Sistemul de fișier.",
+	"github_star": "Stea pe GitHub.",
+	"search": "Căutare...",
+	"showing_num_addons": "Afișând {num} din {total} de addoane.",
+	"extract_where_to": "Unde?",
+	"extract_overwrite_warning": "Fișierul existent va fi rescris!",
+	"extract_open_tip": "GMA-ul va fi extras într-o locație TEMPORARĂ și va fi deschis.",
+	"browse": "Caută...",
+	"addons_folder": "Addoane",
+	"downloads_folder": "Descărcări",
+	"open": "Deschide",
+	"create_folder": "Crează un folder",
+	"extract": "Extrage",
+	"extracting": "Se extrage",
+	"extracting_progress": "Se extrage {pct}% ({data} / {dataTotal})",
+	"pack": "Pachet",
+	"publish": "Publică",
+	"update": "Actualizare",
+	"size_analyzer": "Analizator de spațiu pentru addoane.",
+	"name": "Nume",
+	"cancel": "Anulare",
+	"done": "Terminat",
+	"cancelled": "Oprit",
+	"size": "Mărime",
+	"addon_type": "Tip",
+	"file_types": {
+		"folder": "Folder",
+
+		"vtf": "Valve Texture Format",
+		"vmt": "Valve Material Format",
+		"map": "Map",
+		"ain": "Map AI Nodegraph",
+		"nav": "Map AI Navigation Mesh",
+		"ttf": "TrueType Font",
+		"vcd": "Valve Choreography Data",
+		"fgd": "Forge Game Data",
+		"pcf": "Particles File",
+		"lua": "Lua Code",
+		"mdl": "Model",
+		"vtx": "Model LOD Data",
+		"phy": "Model Physics Mesh",
+		"ani": "Model Animation Data",
+		"vvd": "Model Vertex Data",
+		"txt": "Text",
+		"properties": "Properties",
+
+		"audio": "Sonor",
+		"image": "Imagine",
+		"unknown": "Necunoscut ({extension})"
+	},
+	"items_one": "1 obiect",
+	"items_num": "{n} obiecte",
+	"items_shown": "{n} afișate",
+	"created": "Creat",
+	"updated": "Actualizat",
+	"author": "Autor",
+	"open_addon_location": "Deschide locația addonului.",
+
+	"downloader": "Downloader",
+	"download-input": "Pune ID-urile din atelier, linkuri sau colectii aici...",
+	"download-input-tip": "SFAT: Puteți lipi chestii delimitate prin virgulă sau delimitate newline aici!",
+	"downloading": "Descărcare",
+	"log": "Log",
+	"waiting": "Aștepare",
+	"extraction_tip": "Poți să tragi fișiere GMA pe ecranul acesta pentru a le extrage direct.",
+	"set_destination": "Setează destinația",
+
+	"addon": "Addon",
+	"speed": "Viteză",
+	"total_filesize": "Total",
+	"progress": "Progres",
+
+	"LOG_DOWNLOAD_STARTED": "Descărcarea a început pentru {addon}",
+	"LOG_DOWNLOAD_FINISHED": "Descărcarea s-a terminat pentru {addon} în {time}",
+	"LOG_DOWNLOAD_FAILED": "Descărcarea A EȘUAT pentru {addon} (\"{reason}\")",
+
+	"LOG_EXTRACT_STARTED": "Extragerea a început pentru {addon}",
+	"LOG_EXTRACT_FAILED": "Extragerea A EȘUAT pentru {addon} (\"{reason}\")",
+	"LOG_EXTRACT_FINISHED": "Extragerea s-a terminat pentru {addon} in {time}",
+
+	"FS_ANALYZER_RENDERING": "Se randează...",
+	"FS_ANALYZER_SERIALIZING": "Se serializează...",
+	"FS_ANALYZER_STEAM": "Se descarcă datele steam...",
+	"FS_ANALYZER_COMPUTING": "Se computează...",
+	"FS_ANALYZER_TAGGIFYING": "Taggifying...",
+	"FS_ANALYZER_DISCOVERING": "Se descoperă...",
+
+	"time_just_now": "Acuma",
+	"click_to_open": "Apasă pentru a deschide!",
+	"content_generator": "Generator de conținut",
+	"installed_addons": "Addoane instalate",
+
+	"steam_disconnected": "Ești deconectat de la serverele steam",
+	"steam_connected": "Ești conectat la serverele steam",
+
+	"publish_new": "Publică...",
+
+	"settings": {
+		"saved": "Salvat!",
+		"settings": "Setări",
+
+		"paths": {
+			"paths": "Locații",
+			"user_data": "Locația Datelor Utilizatorului",
+			"gmod": "Locatia cu Instalarea Garry's Mod",
+			"temp": "Locația temp",
+			"downloads": "Locația descărcărilor"
+		},
+
+		"general": {
+			"general": "General",
+			"sounds": "Sunete"
+		},
+
+		"resets": {
+			"resets": "Resetare",
+			"settings": "Resetează setările",
+			"clear_temp": "Goleșste fișiere temporare",
+			"clear_user_data": "Golește datele utilizatorului"
+		},
+
+		"extract_overwrite_mode": {
+			"extract_overwrite_mode": "Suprascrierea comportamentului",
+			"recycle": "Reciclează",
+			"delete": "Șterge",
+			"overwrite": "Suprascrie",
+			"tooltip": "Atunci când se extrag fisere GMA, ce ar trebuii gmpublisher dacă locația unde se extrage, a fost folosită deja? (GMA-ul a fost deja extras înainte)?"
+		},
+
+		"accessibility": {
+			"accessibility": "Accesibilitate",
+			"color_error": "Culoare eroare",
+			"color_success": "Culoare succes",
+			"color_neutral": "Culoare neutră "
+		}
+	},
+
+	"gma_type_name": "Packed Garry's Mod Addon",
+	"downloading_tip": "oți trage linkuri de pe Atelierul Steam pe ecran pentru a le descărca + extrage.",
+	"open_workshop": "Deschide atelier",
+	"bulk_extract_gmas": "Extrage GMA",
+	"error": "Eroare",
+	"queued": "În listă",
+	"remove_all": "Șterge tot",
+	"open_all": "Deschide tot",
+
+	"ERR_UNKNOWN": "Eroare necunoscută",
+	"ERR_NO_ADDONS_FOUND": "Nici un addon găsit",
+	"ERR_STEAM_ERROR": "Eroare steam: {data}",
+	"ERR_WHITELIST": "Aceste intrări nu trec de lista albă de tipul fișierului/locatiei. Dacă asta a fost de neașteptat, addonul tău probabil are structura fișierelor greșită.\n\nDacă vrei sa filtrezi aceste tipuri de fișiere din GMA-ul tău, adaugă-le în Ignoră Tiparul Fișierelor.\n\n{data}",
+	"ERR_IO_ERROR": "I/O Eroare",
+	"ERR_PATH_IO_ERROR": "I/O Eroare ({data})",
+	"ERR_GMA_FORMAT_ERROR": "Fișier GMA corupt",
+	"ERR_GMA_INVALID_HEADER": "Fișier GMA invalid",
+	"ERR_GMA_ENTRY_NOT_FOUND": "Intrarea nu a fost găsită",
+	"ERR_DOWNLOAD_MISSING": "Descărcat, dar fișiere lipsă",
+	"ERR_ICON_TOO_LARGE": "Iconița prea mare (> 1 MB)",
+	"ERR_ICON_TOO_SMALL": "Iconița prea mică (< 16 B)",
+	"ERR_ICON_INVALID_FORMAT": "Iconița trebuie să fie JPG, PNG sau GIF",
+	"ERR_LZMA": "Eroare Compresie LZMA",
+	"ERR_DOWNLOAD_FAILED": "Eroare descărcare",
+	"ERR_ITEM_NOT_FOUND": "Obiectul nu a fost găsit",
+	"ERR_ITEM_INACCESSIBLE": "Obiect inaccesibil",
+	"ERR_INVALID_CONTENT_PATH": "Locația conținutul nu există, nu este o locație sau gmpublisher nu are permisiunea necesară pentru a o accesa",
+	"ERR_MULTIPLE_GMAS": "Multiple fișiere GMA găsite în această locație",
+	"ERR_IMAGE_ERROR": "Eroare de imagine: {data}",
+	"ERR_DUPLICATE_ENTRIES": "Este o eroare de duplicare ({data}) în această locație. Toate locațiile trebuie sa fie speciale și scrise miniscule. folosesc arch ca să ști",
+	"ERR_NO_ENTRIES": "Nu există nici-o intrare în locația conținutului.",
+	"ERR_WORKSHOP_LEGAL_AGREEMENT": "Acordul Legal al Atelierului nu a fost acceptat.",
+
+	"icon_instructions": "Formatele acceptate: JPG, PNG, GIF\nMax Mărime: 1 MB\Recomandat: 512x512",
+	"addon_title": "Titlu...",
+	"addon_path": "Locația addonului...",
+	"icon_file_pick": "Iconița Atelier",
+	"remove_icon": "Șterge iconița",
+
+	"addon_types": {
+		"ServerContent": "Conținut pentru server",
+		"gamemode": "Gamemode",
+		"map": "Hartăa",
+		"weapon": "Arme",
+		"vehicle": "Vehicule",
+		"npc": "NPC",
+		"tool": "Tool",
+		"effects": "Efecte",
+		"model": "Model",
+		"entity": "Entități"
+	},
+
+	"tag_1": "Eticheta 1",
+	"tag_2": "Eticheta 2",
+	"tag_3": "Eticheta 3",
+
+	"addon_tags": {
+		"fun": "Distractiv",
+		"roleplay": "Roleplay",
+		"scenic": "Scenic",
+		"movie": "Film",
+		"realism": "Realism",
+		"cartoon": "Desene",
+		"water": "Apă",
+		"comic": "Comic",
+		"build": "Construcție"
+	},
+
+	"publish_exclamation": "Publică!",
+	"update_exclamation": "Actualizează!",
+	"add_ellipsis": "Adaugă...",
+	"ignored_file_patterns": "Tipar de fișiere ignorate",
+	"show_more": "ARATĂ MAI MULTE",
+	"ignored_for_convenience": "Acest tipar de fișiere este ignorat în mod implicit pentru conveniența ys",
+	"file_browser": "Caută Fișier",
+	"file_browser_select": "Trage un fișier aici sau apasă pentru a căuta",
+	"no_files_found": "Nici un fișier găsit",
+	"upscale_addon_icon": "Scalează la 512x512",
+	"changelog": "Schimbări",
+	"update_warning": "Vei trimite o actualizare la {title} ({id})",
+
+	"PUBLISH_PACKING": "Se ambalează {pct}% ({data} / {dataTotal})",
+	"PUBLISH_STARTING": "S-a pornit publicarea",
+	"PUBLISH_PREPARING_CONFIG": "Se pregătește configurarea",
+	"PUBLISH_PREPARING_CONTENT": "Se pregătește conținutul",
+	"PUBLISH_UPLOADING_CONTENT": "Se publică conținutul",
+	"PUBLISH_UPLOADING_PREVIEW_FILE": "Se publică fișierele de previzualizare",
+	"PUBLISH_COMMITTING_CHANGES": "Se fac schimbările",
+	"PUBLISH_PROCESSING_ICON": "Se procesează iconița",
+
+	"subscriptions": "Abonări",
+	"unsubscribe": "Dezabonează-te",
+	"unsubscribe_all": "Dezabonează-te de la toate",
+	"unsubscribe_all_warning": "ATENȚIE: Te vei dezabona de la toate fișierele la care ești abonat acuma!",
+	"update_available": "O nouă actualizare disponibilă!\n{version}",
+	"workshop_page": "Pagina de atelier",
+	"steam_workshop": "Atelier Steam",
+	"open_count": "Ai deschis gmpublisher de {count} ori! Felicitări!",
+	"enjoying_gmpublisher": "Ai o experiență mulțumită cu gmpublisher?",
+	"github_star_plz_i_need_a_job_maybe": "Dacă ai un cont de GitHub, consideră să-mi lași o stea pe %GitHub repository% dacă munca mea te-a ajutat :D",
+	"vscode_glua_enhanced": "Dacă ești un dezvoltator, poate vei fi interesat și de extensia mea %VSCode GLua Enhanced% ",
+
+	"copy_link": "Copiază link-ul",
+	"open_image": "Deschide imaginea",
+	"copy_image_link": "Copiază link-ul imaginii",
+	"download": "Descarcă",
+	"sent_to_downloader": "Trimis la descărcare",
+
+	"locating": "Se localizează",
+	"decompressing": "Se decompresează {progress}",
+	"reading_metadata": "Se citește Metadata",
+
+	"publish_icon": "Publică o iconița nouă (NU va actualiza addonul)",
+
+	"copy_path": "Copiază locația"
+}
